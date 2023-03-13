@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Вписване/Регистрация</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="/index.html" method="post">
+      <h2>Вписване</h2>
+      <label for="username"><b>Псевдоним</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="password"><b>Парола</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+
+      <button type="submit">Впиши</button>
+    </form>
+
+    <form action="index.html" method="post">
+      <h2>Регистрация</h2>
+      <label for="username"><b>Псевдоним</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="password"><b>Парола</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+
+      <label for="confirm_password"><b>Повтори паролата</b></label>
+      <input type="password" placeholder="Confirm Password" name="confirm_password" required>
+
+      <button type="submit">Регистрация</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
